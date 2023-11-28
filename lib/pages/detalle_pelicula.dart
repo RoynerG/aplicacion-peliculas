@@ -25,6 +25,10 @@ class DetallePelicula extends StatelessWidget {
             padding: EdgeInsets.all(8.0),
             child: Text(movie['overview']),
           ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(movie['release_date']),
+          ),
         ],
       ),
     );
